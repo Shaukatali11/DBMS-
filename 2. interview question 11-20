@@ -1,0 +1,41 @@
+Q1. What is an index in SQL?
+Answer: An index is a database object that improves the speed of data retrieval operations on a table at the cost of additional writes and storage space. Indexes can be 
+created on one or more columns of a table.
+
+Q2. What is a transaction?
+Answer: A transaction is a sequence of one or more SQL operations that are treated as a single unit of work. Transactions are used to ensure data integrity and consistency. 
+They follow the ACID properties (Atomicity, Consistency, Isolation, Durability).
+
+Q3. What are the ACID properties?
+Answer: The ACID properties are:
+Atomicity: Ensures that all operations within a transaction are completed successfully; otherwise, the transaction is aborted.
+Consistency: Ensures that the database remains in a consistent state before and after the transaction.
+Isolation: Ensures that transactions are isolated from each other, preventing concurrent transactions from interfering.
+Durability: Ensures that once a transaction is committed, it will remain so, even in the event of a system failure.
+
+Q4. What is a view in SQL?
+Answer: A view is a virtual table in SQL, created by a query that selects data from one or more tables. Views simplify complex queries, enhance security by restricting access
+to specific data, and provide a level of abstraction.
+
+Q5. What is a stored procedure?
+Answer: A stored procedure is a set of SQL statements that can be stored and executed on the database server. Stored procedures help in code reuse, encapsulation, and improving 
+performance by reducing network traffic.
+
+Q6. What is a trigger in SQL?
+Answer: A trigger is a special kind of stored procedure that automatically executes in response to certain events on a table or view, such as INSERT, UPDATE, or DELETE operations. 
+Triggers are used to enforce business rules, audit changes, and maintain integrity.
+
+Q7. What is a cursor in SQL?
+Answer: A cursor is a database object used to retrieve, manipulate, and navigate through a result set row by row. Cursors are used in stored procedures and triggers to handle
+data on a per-row basis.
+
+Q8. What is a database schema?
+Answer: A database schema is the structure that defines the organization of data in a database, including tables, views, indexes, and relationships. It provides a blueprint of
+how data is stored and managed.
+
+Q9. What is a composite key?
+Answer: A composite key is a primary key that consists of two or more columns in a table. The combination of these columns uniquely identifies each row in the table.
+
+Q10. What is a subquery in SQL?
+Answer: A subquery is a query nested inside another query. Subqueries can be used in SELECT, INSERT, UPDATE, and DELETE statements to retrieve data that will be used in the 
+main query.
