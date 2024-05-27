@@ -1,0 +1,49 @@
+Q1. What is a DBMS?
+Answer: A Database Management System (DBMS) is software that provides an interface to interact with databases for storing, retrieving, and managing data. It allows users to 
+create, read, update, and delete data in a systematic and controlled manner.
+
+Q2. What are the different types of DBMS?
+Answer: The different types of DBMS are:
+- Hierarchical DBMS
+- Network DBMS
+- Relational DBMS (RDBMS)
+- Object-oriented DBMS (OODBMS)
+
+Q3. What is a primary key?
+Answer: A primary key is a unique identifier for a database record. It must contain unique values and cannot contain NULLs. Each table can have only one primary key.
+
+Q4. What is a foreign key?
+Answer: A foreign key is a field (or collection of fields) in one table, that uniquely identifies a row of another table or the same table. The foreign key is defined in a 
+second table, but it refers to the primary key or a unique key in the first table.
+
+Q5. What is SQL?
+Answer: SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. It includes commands for querying data, 
+updating data, and managing database structures.
+
+Q6. What are the different types of SQL commands?
+Answer: The different types of SQL commands are:
+DDL (Data Definition Language): CREATE, ALTER, DROP
+DML (Data Manipulation Language): SELECT, INSERT, UPDATE, DELETE
+DCL (Data Control Language): GRANT, REVOKE
+TCL (Transaction Control Language): COMMIT, ROLLBACK, SAVEPOINT
+
+Q7. What is a join in SQL?
+Answer: A join is an SQL operation that combines rows from two or more tables based on a related column between them. Types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, 
+and FULL OUTER JOIN.
+
+Q8. What is normalization?
+Answer: Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller ones and
+defining relationships between them.
+
+Q9. What are the different normal forms?
+Answer: The different normal forms are:
+First Normal Form (1NF)
+Second Normal Form (2NF)
+Third Normal Form (3NF)
+Boyce-Codd Normal Form (BCNF)
+Fourth Normal Form (4NF)
+Fifth Normal Form (5NF)
+
+Q10. What is denormalization?
+Answer: Denormalization is the process of combining normalized tables to improve read performance by reducing the number of joins. It is often used in data warehousing and 
+OLAP systems.
